@@ -107,6 +107,11 @@ h2 {
   background-color: #f3aa4e;
 }
 
+p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
 li {
   list-style: none;
 }
@@ -117,12 +122,11 @@ li {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #1a171d;
-  background-color: #;
   justify-content: space-between;
 }
 
 .tag-para {
-  color: #1a171d;
+  color: #ffffff;
   background-color: #f3aa4e;
   border: 0px none;
   padding: 10px;
