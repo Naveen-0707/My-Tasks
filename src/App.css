@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.create-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 35vw;
+  background-color: #131213;
+}
+h1 {
+  color: #f3aa4e;
+  margin: 50px;
+  font-size: 50px;
+}
+label {
+  color: #f1f5f9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  width: 25vw;
+  height: 4vh;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 25vw;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-con {
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #f3aa4e;
+  border-radius: 5px;
+  border: 0px none;
+  padding: 7px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 15px;
+  width: 7vw;
+}
+
+.view-cont {
+  background-color: #000000;
+  min-width: 65vw;
+}
+
+h2 {
+  font-size: 45px;
+  color: #ffffff;
+  padding-left: 20px;
+  margin: 20px;
+}
+
+.tag-cont {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  max-width: 60vw;
+  flex-wrap: wrap;
+}
+.tag-item {
+  margin: 5px;
+}
+
+.tag-btn {
+  border: #f3aa4e solid 2px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+}
+.act-tag {
+  background-color: #f3aa4e;
+}
+
+li {
+  list-style: none;
+}
+.task-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1a171d;
+  background-color: #;
+  justify-content: space-between;
+}
+
+.tag-para {
+  color: #1a171d;
+  background-color: #f3aa4e;
+  border: 0px none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.task-cont {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+.empty-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.empty-para {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  input {
+    width: 70vw;
+  }
+  select {
+    width: 70vw;
+  }
+  .submit-btn {
+    width: 40vw;
+  }
+}
